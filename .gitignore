@@ -1,0 +1,61 @@
+# Varsayilan olarak kokteki her seyi disarida birak.
+/*
+
+# GitHub deposunda kalmasi istenen ana dosyalar.
+!/.gitignore
+!/README.md
+!/AGENTS.md
+
+# Paylasilacak ders klasorleri.
+!/Sistem Programlama/
+/Sistem Programlama/*
+!/Sistem Programlama/ders.md
+!/Sistem Programlama/defter_notlari.md
+!/Sistem Programlama/calisma_plani.md
+!/Mikroişlemciler/
+/Mikroişlemciler/*
+!/Mikroişlemciler/ders.md
+!/Mikroişlemciler/defter_notlari.md
+!/Mikroişlemciler/calisma_plani.md
+!/Bilgisayar Ağları/
+/Bilgisayar Ağları/*
+!/Bilgisayar Ağları/ders.md
+!/Bilgisayar Ağları/defter_notlari.md
+!/Bilgisayar Ağları/calisma_plani.md
+!/İnternet teknolojileri/
+/İnternet teknolojileri/*
+!/İnternet teknolojileri/ders.md
+!/İnternet teknolojileri/defter_notlari.md
+!/İnternet teknolojileri/calisma_plani.md
+!/yazılım mühendisligi/
+/yazılım mühendisligi/*
+!/yazılım mühendisligi/ders.md
+!/yazılım mühendisligi/defter_notlari.md
+!/yazılım mühendisligi/calisma_plani.md
+
+# Yerel sistem ve editor dosyalari.
+.DS_Store
+**/.DS_Store
+**/.vscode/
+**/.idea/
+
+# Python/ortam ve gecici dosyalar.
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Gecici ofis dosyalari.
+~$*
+*.tmp
+*.bak
+
+# Ders kaynaklari yerelde kalir; icerikleri ders.md dosyasina islenir.
+**/pdf/
+**/defter/
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pka
